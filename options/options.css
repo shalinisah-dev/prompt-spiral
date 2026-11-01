@@ -1,0 +1,8 @@
+:root { color-scheme: light dark; font: 16px/1.5 ui-sans-serif, system-ui, sans-serif; }
+body { margin: 0; background: #fffaf0; color: #29262f; }
+main { width: min(560px, calc(100% - 32px)); margin: 64px auto; padding: 28px; border: 1px solid #d9d0c3; border-radius: 16px; }
+h1 { margin-top: 0; font-size: 22px; }
+label { display: flex; align-items: center; gap: 10px; }
+input { width: 18px; height: 18px; accent-color: #6d578f; }
+input:focus-visible { outline: 3px solid #8065b4; outline-offset: 3px; }
+@media (prefers-color-scheme: dark) { body { background: #1d1b20; color: #f6f0e8; } main { border-color: #5e5664; } }

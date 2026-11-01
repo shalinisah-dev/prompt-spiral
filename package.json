@@ -1,0 +1,13 @@
+{
+  "name": "prompt-spiral",
+  "version": "2.2.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test",
+    "check": "node scripts/validate-extension.cjs && node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
